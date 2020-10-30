@@ -1,0 +1,14 @@
+#navbar-style {
+    background-color: darkblue;
+    justify-content: center;
+    border-bottom: 5px solid red;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#navbar-title{
+    color: white;
+}
+
+p{
+    color: white;
+}
