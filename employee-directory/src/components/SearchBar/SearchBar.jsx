@@ -5,8 +5,8 @@ const SearchBar = () => {
     return (
         <div className = "row search-bar">
             <div className = "col-sm-2">
-            <form class="form">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+            <form className="form">
+                <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
             </form>
             </div>
         </div>
