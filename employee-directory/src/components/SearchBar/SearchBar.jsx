@@ -4,10 +4,10 @@ import './SearchBarStyle.css';
 class SearchBar extends Component {
 
     // establish state
-    state ={
-        search: "",
-        results: []
-    };
+    // state ={
+    //     search: "",
+    // };
+
     // When this component mounts, search the Employee data for matching information
     // componentDidMount() {
     //     this.searchEmployees()
@@ -18,16 +18,22 @@ class SearchBar extends Component {
 
     // }
     // handle the input change
-    
+
     // 
 
     
-    render() {
+    render(props) {
         return (
             <div className = "row search-bar">
                 <div className = "col-sm-2">
                     <form className="form">
-                        <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <input 
+                        className="form-control mr-sm-2" 
+                        type="search" 
+                        value = {props.search} 
+                        onChange = {props.handleInputChange}
+                        placeholder="Search" 
+                        aria-label="Search" />
                     </form>
                 </div>
             </div>
