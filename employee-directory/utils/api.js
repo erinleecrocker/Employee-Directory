@@ -5,6 +5,7 @@ const BASE_URL = 'https://dummyapi.io/data/api/';
 const APP_ID = '{5f9ca8cf59a9a6d614b63dea}';
 
 const App = () => {
+
     const [loading, setLoading] = useState(false);
     const [data, setData] = useState(null);
 
@@ -17,12 +18,12 @@ const App = () => {
             console.log(data);
     }, []);
 
-//     return (
-//         <div>
-//            {loading && "Loading..."}
-//            {JSON.stringify(data)}
-//         </div>
-//     );
+    // return (
+    //     <div>
+    //        {loading && "Loading..."}
+    //        {JSON.stringify(data)}
+    //     </div>
+    // );
 };
 
 export { data };

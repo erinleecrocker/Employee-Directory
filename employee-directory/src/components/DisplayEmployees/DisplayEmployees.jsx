@@ -3,8 +3,9 @@ import './displayEmployeesStyle.css';
 import Employee from '../Employee/Employee'
 
 const DisplayEmployees = () => {
+
     return (
-      <div className="container">
+      <div className="Display-Employee">
         <table className="table table-striped">
           <thead>
             <tr>
